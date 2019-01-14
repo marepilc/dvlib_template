@@ -1,7 +1,7 @@
 import "dvlib";
 import { 
     createCanvas, dvStart, resizeCanvas, background, fill, 
-    textAlign, HAlignment, textSize, text, width, height, warmGrayLight, greenLight 
+    textAlign, HAlignment, textSize, text, width, height, greenLight 
 } from "dvlib";
 
 dvStart(setup, draw);

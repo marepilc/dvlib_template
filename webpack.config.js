@@ -10,6 +10,10 @@ module.exports = {
             exclude: /node_modules/
         }]
     },
+    devtool: 'source-map',
+    devServer: {
+        contentBase: './dist'
+    },
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
     },
