@@ -1,7 +1,7 @@
 import "dvlib";
 import { 
     createCanvas, dvStart, resizeCanvas, background, fill, 
-    textAlign, HAlignment, textSize, text, width, height, greenLight 
+    textAlign, TextAlign, textSize, text, width, height, green 
 } from "dvlib";
 
 dvStart(setup, draw);
@@ -14,8 +14,8 @@ function setup(): void {
 
 function draw() {
     background('#2d2f2f');
-    fill(greenLight);
-    textAlign(HAlignment.center);
+    fill(green);
+    textAlign(TextAlign.center);
     textSize(48);
     text('Hello, World!', width / 2, height / 2);
 }

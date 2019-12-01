@@ -1,6 +1,6 @@
 {
   "name": "dvlib_template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "private": true,
   "main": "index.js",
@@ -13,13 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "dvlib": "^1.1.4"
+    "dvlib": "^2.0.0"
   }
 }
