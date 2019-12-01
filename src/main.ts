@@ -1,4 +1,3 @@
-import "dvlib";
 import { 
     createCanvas, dvStart, resizeCanvas, background, fill, 
     textAlign, TextAlign, textSize, text, width, height, green 
